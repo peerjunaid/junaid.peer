@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Junaid Ul Islam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/framer-motion/dist/framer-motion.min.js"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center p-5">
+            <h1 class="text-2xl font-bold">Junaid Ul Islam</h1>
+            <nav>
+                <ul class="flex gap-4">
+                    <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                    <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold">Hi, I’m Junaid Ul Islam</h2>
+            <p class="text-xl mt-4">Aspiring Data Scientist & Web Developer</p>
+            <a href="#contact" class="mt-6 inline-block bg-white text-blue-500 px-6 py-3 font-semibold rounded-lg shadow-lg hover:bg-gray-100">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">About Me</h3>
+            <p class="max-w-3xl mx-auto">I am a 22-year-old computer science enthusiast pursuing a BCA at Chandigarh University. With a passion for JavaScript, web development, and data science, I aim to create impactful digital solutions. My journey includes 3 years of professional experience in customer service and sales, which has honed my communication and leadership skills.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">My Skills</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">JavaScript</h4>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">HTML & CSS</h4>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">C++</h4>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">Adobe Photoshop</h4>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">Data Structures</h4>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">Algorithms</h4>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">MS Excel</h4>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">Sales Management</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">Portfolio Website</h4>
+                    <p class="mt-2">A responsive personal portfolio showcasing my work and skills.</p>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">Sales Management Dashboard</h4>
+                    <p class="mt-2">An interactive dashboard for visualizing sales data built using JavaScript and Excel.</p>
+                </div>
+                <div class="shadow-lg p-5 rounded-lg bg-white">
+                    <h4 class="text-xl font-semibold">Customer Feedback System</h4>
+                    <p class="mt-2">A system to collect and analyze customer feedback, enhancing service quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
+            <form class="max-w-xl mx-auto mt-8 bg-white p-6 rounded-lg shadow-lg">
+                <div class="mb-4">
+                    <input type="text" placeholder="Your Name" class="w-full border border-gray-300 rounded-lg p-3">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Your Email" class="w-full border border-gray-300 rounded-lg p-3">
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Your Message" rows="4" class="w-full border border-gray-300 rounded-lg p-3"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Junaid Ul Islam. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

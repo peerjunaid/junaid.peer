@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2563eb;
+}
+
+/* Header Animation */
+header {
+    animation: fadeInDown 1s ease;
+}
+
+/* Hero Section */
+.bg-gradient-to-r {
+    animation: gradientAnimation 3s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Skills Cards */
+.grid div {
+    animation: fadeInUp 1s ease;
+}
+
+.grid div:hover {
+    transform: translateY(-10px) scale(1.05);
+    transition: transform 0.4s;
+}
+
+/* Contact Form */
+form input, form textarea {
+    transition: box-shadow 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+/* Buttons */
+button {
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Footer */
+footer {
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
